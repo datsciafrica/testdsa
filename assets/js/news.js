@@ -1,17 +1,6 @@
 (function($) {
 
-	"use strict";
-
-	var fullHeight = function() {
-
-		$('.js-fullheight').css('height', $(window).height());
-		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
-		});
-
-	};
-	fullHeight();
-
+	
 	var carousel = function() {
 		$('.featured-carousel').owlCarousel({
 	    loop:true,
@@ -22,8 +11,9 @@
 	    nav:true,
 	    dots: true,
 	    autoplayHoverPause: false,
-	    items: 1,
-	    navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+	    items: 3,
+	    //navText : ["<span class='fa fa-user'></span>","<span class='fa fa-user'></span>"],
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 	    responsive:{
 	      0:{
 	        items:1

@@ -570,7 +570,9 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  color: #40b4ba;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -904,7 +906,7 @@ a {
 
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 1em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -920,12 +922,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
-.btn {
-  font-size: 14px; }
-  .btn.btn-primary {
-    background: #ff487e;
-    border-color: #ff487e; }
 
 .owl-carousel {
   position: relative; }
@@ -999,7 +995,9 @@ a {
 
 .blog-entry {
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  text-align: left;
+}
   .blog-entry .text {
     position: relative;
     border-top: 0;
@@ -1009,9 +1007,9 @@ a {
       margin-bottom: 16px;
       font-weight: 600; }
       .blog-entry .text .heading a {
-        color: #000; }
+        color: #40b4ba; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #ff487e; }
+          color: #000; }
     .blog-entry .text .meta-chat {
       color: #b3b3b3; }
     .blog-entry .text .read {
@@ -1056,3 +1054,6 @@ a {
 .card-title{
     font-weight: 800;
 }
+
+
+
