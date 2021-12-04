@@ -1,6 +1,6 @@
 <section id="header" class="jumbotron text-center">
-     <h1 class="display-4">Events</h1>
-     <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+     <h1 class="display-4">DSA Events</h1>
+     <p class="lead">DSA Events consist of a 3 days of Summer School and 2 days of Workshop. We have had a total of 9 events in 7 countries in Africa.</p>
      
 </section>
 		<section class="ftco-section">
@@ -9,142 +9,27 @@
 					
 					<div class="col-md-12">
 						<div class="featured-carousel owl-carousel">
+                    {% assign events = site.data.events | sort_natural: "startdate" | reverse %}       
+                    {% for event in events %}
 							<div class="item mr-4">
 								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_1.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                </p>
-		                </div>
-		              </div>
-		            </div>
+		                          <a target="_blank" href="{{ event.site }}" class="block-20 d-flex align-items-start text border" style="background-image: url('{{site.baseurl}}{{ event.image }}');">
+								  <div class="meta-date text-center p-2">
+                                  {% assign datesplit = event.startdate |date: "%d, %b, %Y" |split: ", " %}
+		                              <span class="day">{{ event.position }}</span>
+		                              
+		                          </div>
+                                      <div class="meta-details">
+                                          {{ event.title }}
+                                      </div>
+		                          </a>
+		                      <div class="text border border-top-0 p-4">
+		                      <h3 class="heading"><a target="_blank" href="{{ event.site }}">{{ event.venue }}</a></h3>
+<!--		                      <p>{{ event.theme }}</p>-->
+		                      </div>
+		                      </div>
 							</div>
-
-							<div class="item mr-4">
-								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_2.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	
-			                </p>
-		                </div>
-		              </div>
-		            </div>
-							</div>
-
-							<div class="item mr-4">
-								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_3.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	
-			                </p>
-		                </div>
-		              </div>
-		            </div>
-							</div>
-
-							<div class="item mr-4">
-								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_4.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
-			                </p>
-		                </div>
-		              </div>
-		            </div>
-							</div>
-
-							<div class="item mr-4">
-								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_5.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
-			                </p>
-		                </div>
-		              </div>
-		            </div>
-							</div>
-
-							<div class="item mr-4">
-								<div class="blog-entry">
-		              <a href="#" class="block-20 d-flex align-items-start" style="background-image: url('{{site.baseurl}}/assets/img/image_6.jpg');">
-										<div class="meta-date text-center p-2">
-		                  <span class="day">26</span>
-		                  <span class="mos">Nov.</span>
-		                  <span class="yr">2019</span>
-		                </div>
-		              </a>
-		              <div class="text border border-top-0 p-4">
-		                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-		                <div class="d-flex align-items-center mt-4">
-			                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-			                <p class="ml-auto meta2 mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	<a href="#" class="meta-chat"><span class="ion-ios-chatboxes"></span> 3</a>
-			                </p>
-		                </div>
-		              </div>
-		            </div>
-							</div>
+                {% endfor %}
 						</div>
 					</div>
 				</div>

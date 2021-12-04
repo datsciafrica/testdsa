@@ -1,0 +1,148 @@
+# #yml template for the event calender
+# #template for all Day Event
+# -
+#  title: "All day Event"
+#  start: '2020-09-01'
+#  url: 'http://google.com/'
+# #template for Long Event
+
+#-
+# title: 'Long Event'
+# start: '2020-09-07'
+# end: '2020-09-10'
+# url: 'http://google.com/'
+# #template for Repeating Event
+# -
+#  groupId: 999
+#  title: 'Repeating Event',
+#  start: '2020-09-09T16:00:00'
+#  url: 'http://google.com/'
+# -
+#  groupId: 999
+#  title: 'Repeating Event'
+#  start: '2020-09-16T16:00:00'
+#  url: 'http://google.com/'
+-
+ title: '1st DSA Uganda Pre-Launch Event'
+ start: '2021-03-30T10:00:00'
+ url: 'http://google.com/'
+ color: '#189ea0'
+ type: 'event'
+-
+ title: '1st DSA Uganda Pre-Launch Event'
+ start: '2020-04-30T10:00:00'
+ url: 'http://www.datascienceafrica.org/dsaUganda/events/pre-launch.html'
+ color: '#189ea0'
+ type: 'event'
+-
+ title: '2nd DSA Uganda Pre-Launch Event'
+ start: '2021-05-28T10:00:00'
+ url: 'http://www.datascienceafrica.org/dsaUganda/events/pre-launch-2.html'
+ color: '#189ea0'
+ type: 'event'
+-
+ title: '3rd DSA Uganda Pre-Launch Event'
+ start: '2021-06-25T16:00:00'
+ url: 'http://www.datascienceafrica.org/dsaUganda/events/pre-launch-3.html'
+ color: '#189ea0'
+ type: 'event'
+-
+ title: '1st Regional DSA Uganda Pre-Launch Event - North'
+ start: '2021-08-27T16:00:00'
+ url: 'http://www.datascienceafrica.org/dsaUganda/events/pre-launch-north.html'
+ color: '#189ea0'
+ type: 'event'
+-
+ title: 'DSA 2021 Kimberley - Summer School'
+ start: '2021-10-04'
+ end: '2021-10-07'
+ url: 'https://www.datascienceafrica.org/dsa2021kimberley/'
+ color: '#e21937'
+ type: 'event'
+-
+ title: 'DSA 2021 Kimberley - Virtual Workshop'
+ start: '2021-10-07'
+ end: '2021-10-09'
+ url: 'https://www.datascienceafrica.org/dsa2021kimberley/'
+ color: '#f89828'
+ type: 'event'
+-
+ title: "Workshop, CHALLENGES AND OPPORTUNITIES FOR WOMEN IN IT AND DATA SCIENCE WITH Q&A"
+ start: '2021-10-08T11:40:00'
+ url: 'https://twitter.com/dsa_org/status/1446414655405101058'
+ type: 'event'
+-
+ title: "Workshop, Environmental Data Acquisition and Data Processing"
+ start: '2021-10-20'
+ end: '2021-10-20'
+ url: ' https://bit.ly/3iQPMBo'
+ color: "#ff6b00"
+ type: 'event'
+-
+ title: "Clinic on Dynamic Approaches to Infectious Disease Data (DAIDD 2021) - virtual edition"
+ start: '2021-12-12'
+ end: '2021-12-19'
+ url: 'http://www.ici3d.org/daidd/rfa'
+ color: '#15378a'
+ type: 'event'
+-
+ title: "Conversational AI"
+ start: '2021-10-28T10:00:00'
+ url: 'https://zoom.us/j/96228244771?pwd=T093NWxJWjRER0k4b0QwODhsN2s2Zz09'
+ type: 'event'
+-
+ title: "Women in Data science: 7-week digital course for ladies to learn: Statistics. Data Science. Applied Finance. Machine Learning. R or Python Programming"
+ start: '2021-11-10'
+ end: '2021-11-17'
+ url: 'https://ingressive.org/women-in-data-scholarship/'
+ color: "#01bab7"
+ type: 'event'
+-
+ title: "Accelerate your data science career in financial services."
+ start: '2021-11-19'
+ url: 'https://bootcamp33.com/'
+ color: '#D31245'
+ type: 'event'
+-
+ title: "APPLY FOR THE AFRICAN WOMEN IN DATA SCHOLARSHIP"
+ start: '2021-10-25'
+ end: '2021-11-07T23:59:00'
+ url: 'https://ingressive.org/women-in-data-scholarship/'
+ color: '#01bab7'
+ type: 'call'
+-
+ title: "AI IN EMERGING MARKETS CONFERENCE SESSIONS"
+ start: '2021-11-08'
+ end: '2021-11-11'
+ url: 'https://www.nvidia.com/gtc/sessions/emerging-markets/?ncid=ref-emc-852071'
+ color: '#76b900'
+ type: 'event'
+-
+ title: "Call for papers and registration for the AI for Agriculture and Food Systems workshop at the 2022 AAAI conference"
+ start: '2021-09-20T00:00:00'
+ end: '2021-11-12T23:59:00'
+ url:  'https://aiafs-aaai2022.github.io/callforpapers/'
+ color: '#000000'
+ type: 'call'
+-
+ title: "The Evolution of Local Humanitarian Open Mapping Ecosystems: Understanding Community, Collaboration, and Contribution"
+ start: '2021-11-22'
+ url: 'https://www.eventbrite.com/e/humanitarian-openstreetmap-team-summit-2021-tickets-178256338507'
+ color: '#F05537'
+ type: 'event'
+-
+ title: "Author Notification for the AI for Agriculture and Food Systems workshop at the 2022 AAAI conference"
+ start: '2021-12-03'
+ url:  'https://openreview.net/group?id=AAAI.org/2022/Workshop/AIAFS'
+ color: '#000000'
+ type: 'event'
+-
+ title: "The Thirty-Sixth (36) AAAI Conference on Artificial Intelligence"
+ start: '2022-02-28'
+ end: '2022-03-02'
+ url: 'https://aaai.org/Conferences/AAAI-22/ws22workshops/#ws02'
+ color: '#013d7a'
+ type: 'event'
+
+
+ 

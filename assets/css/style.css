@@ -1003,13 +1003,13 @@ a {
     border-top: 0;
     border-radius: 2px; }
     .blog-entry .text .heading {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 16px;
       font-weight: 600; }
       .blog-entry .text .heading a {
-        color: #40b4ba; }
+        color: #b3b3b3; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #000; }
+          color: #40b4ba; }
     .blog-entry .text .meta-chat {
       color: #b3b3b3; }
     .blog-entry .text .read {
@@ -1017,13 +1017,15 @@ a {
       font-size: 14px; }
   .blog-entry .meta-date {
     display: inline-block;
-    background: #343a40; }
+    background: #40b4ba; }
     .blog-entry .meta-date span {
       display: block;
       color: #fff; }
     .blog-entry .meta-date .day {
       font-weight: 700;
-      font-size: 20px; }
+      font-size: 30px; 
+        line-height: 60px;
+}
     .blog-entry .meta-date .mos, .blog-entry .meta-date .yr {
       font-size: 13px; }
   .blog-entry .meta > div {
@@ -1054,6 +1056,30 @@ a {
 .card-title{
     font-weight: 800;
 }
+
+.meta-details{
+    background-color: rgb(52, 58, 64, 0.4);
+    margin-left: 10px;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    align-self:auto;
+    flex: auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.meta-details:hover{
+    background-color: rgb(52, 58, 64, 0.9);
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 
