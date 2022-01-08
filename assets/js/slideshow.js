@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+//slide show
   $('.site-slider').owlCarousel({
 		loop: true,
 		auto: true,
@@ -29,6 +29,9 @@ $(document).ready(function(){
 
     }
   	});
+    
+    
+
   });
 
 $(window).on('load', function(){
