@@ -52,3 +52,5 @@ copyright: © 2021 Data Science Africa - All rights reserved
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - _site/
