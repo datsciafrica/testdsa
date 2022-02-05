@@ -132,7 +132,7 @@ $(document).ready(function () {
     $('.featured-carousel').owlCarousel({
         //autoPlay: 5000,
 		stopOnHover: true,
-        navigation: true,
+        navigation: false,
 		pagination: true,
 		items: 3,
 		addClassActive: true,
