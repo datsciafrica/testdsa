@@ -132,14 +132,28 @@ $(document).ready(function () {
     $('.featured-carousel').owlCarousel({
         //autoPlay: 5000,
 		stopOnHover: true,
-        navigation: false,
+        navigation: true,
 		pagination: true,
 		items: 3,
 		addClassActive: true,
         transitionStyle: "fade",
         navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         responsiveClass:true,
-        
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
     });
 	//End news
     
