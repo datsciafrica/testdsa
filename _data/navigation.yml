@@ -18,7 +18,7 @@
   sublinks:
     - title: Grants
       url: /
-      sublinks:
+      subsublinks:
         - title: DSA Reseach Awards 2020
           url: /
         - title: DSA Reseach Awards 2022

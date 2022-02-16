@@ -58,8 +58,15 @@
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="nav-link {{ class }}">{{ link.title }}</a>
                     <ul class="dropdown arrow-top">
                         {% for sublink in link.sublinks %}
-                            {% if sublink.title == 'separator' %}
-                                <li role="separator" class="divider"></li>
+                            {% if sublink.subsublinks %}
+                                <li class="has-children">
+                                    <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}" class="nav-link">{{ sublink.title }}</a>
+                                        <ul class="dropdown">
+                                            {% for subsublink in sublink.subsublinks %}
+                                                <a href="{{ site.url }}{{ site.baseurl }}{{ subsublink.url }}" class="nav-link">{{ subsublink.title }}</a>
+                                            {% endfor %}
+                                            </ul>
+                                        </li>
                             {% else %}
                                 <li>
                                     <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}" class="nav-link">{{ sublink.title }}</a>
