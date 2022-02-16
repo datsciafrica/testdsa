@@ -1,0 +1,40 @@
+- title: Home
+  url: /
+- title: About Us
+  url: /aboutus/
+  sublinks:
+    - title: Who we are
+      url: /aboutus/#who-we-are
+    - title: Foresight
+      url: /aboutus/#foresight
+    - title: Achievements
+      url: /aboutus/#achievements
+    - title: Core Tenets
+      url: /aboutus/#tenets
+    - title: Legal Status
+      url: /aboutus/#legal
+- title: Programmes
+  url: /programmes/
+  sublinks:
+    - title: Grants
+      url: /
+      sublinks:
+        - title: DSA Reseach Awards 2020
+          url: /
+        - title: DSA Reseach Awards 2022
+          url: /
+        
+    - title: Events
+      url: /
+    - title: DSA Monthly Seminar
+      url: /
+    - title: DSA Fellowship
+      url: /
+    - title: DSA Local Chapters
+      url: /
+- title: Resources
+  url: /resources/
+- title: Contact Us
+  url: /contactus/
+- title: Blog
+  url: /blog/
