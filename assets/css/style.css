@@ -1091,9 +1091,73 @@ p:first-letter{
 */
 
 
+ .jumbotron h1 {
+ font-family:Georgia,serif;
+ font-size:30px;
+ line-height:1em;
+ margin:0 0 0 60px;
+     
+ }
+
+.page-body h1 strong{
+ color:#A80C1E;
+ display:block;
+ font-size:85px;
+ font-weight:normal;
+ letter-spacing:-3.5px;
+ line-height:1em;
+ }
 
 
+.page-body h2 {
+ font-family: georgia,serif;
+ font-size: 20px;
+ letter-spacing: 0.1em;
+ line-height: 1.5em;
+ text-transform: uppercase;
+ margin: 10px;
+ }
 
+.page-body p{
+ color:#4B4742;
+ line-height:30px;
+ margin:10px; /*Customize */
+
+ }
+.page-body ul{
+/*    background: #9ddfef;*/
+}
+
+.page-body ul li{
+    color:#4B4742;
+    padding-left: 30px;
+    line-height:30px;
+    margin: 5px;
+    list-style-position:inside;
+/*    background: #ededed;*/
+}
+
+.page-body ol{
+/*    background: #9ddfef;*/
+}
+
+.page-body ol li{
+/*    color:#4B4742;*/
+    padding-left: 30px;
+    line-height:30px;
+    margin: 5px;
+    list-style-position:inside;
+/*    background: #ededed;*/
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron h2{
+    color: white;
+}
 
 
 
