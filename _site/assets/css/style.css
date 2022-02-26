@@ -1,25 +1,26 @@
 /***** Footer *****/
 
-.footer-top { background-color: #40b4ba; padding: 60px 0; text-align: left; color: #fff; color: rgba(255, 255, 255, 1.0); }
+.footer-top { background: rgb(13,133,66);
+background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.9430147058823529) 100%); padding: 60px 0; text-align: left; color: #fff; color: rgba(255, 255, 255, 1.0); }
 .footer-top h3 { padding-bottom: 10px; color: #fff; }
 
 .footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
-.footer-about a{color: #444;}
+.footer-about a{color: #fff;}
 .footer-about a:hover{color: #fff;}
 
 .footer-contact p { word-wrap: break-word; }
 .footer-contact i { padding-right: 10px; font-size: 18px; color: #fff; color: rgba(255, 255, 255, 0.5); }
-.footer-contact a{ color: #444;}
-.footer-contact a:hover{ color: #fff;}
+.footer-contact a{ color: #fff;}
+.footer-contact a:hover{ color: #a0a0a0;}
 
 .footer-links a { color: #fff; color: rgba(255, 255, 255, 1.0); border: 0; }
-.footer-links a:hover, .footer-links a:focus { color: #444; }
+.footer-links a:hover, .footer-links a:focus { color: #a0a0a0; }
 
 .footer-bottom { padding: 15px 0 17px 0; background: #222; text-align: left; color: gray; }
 
 .footer-social { padding-top: 3px; text-align: right; }
 .footer-social a { margin-left: 20px; color: gray; border: 0; }
-.footer-social a:hover, .footer-social a:focus { color: #40b4ba; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #0d8542; border: 0; }
 .footer-social i { font-size: 24px; vertical-align: middle; }
 
 .footer-copyright { padding-top: 5px; }
@@ -54,7 +55,7 @@
   transition: font 200ms ease-out, margin 200ms ease-out;
 }
 #mainSlider .btn {
-  background-color: #40b4ba;
+  background-color: #0d8542;
   margin-top: 60px;
   color: #fff;
   margin-bottom: 0;
@@ -384,8 +385,8 @@
   box-decoration-break: clone;
 }
 #owl-main .caption h1.dark-bg span, #owl-main .caption p.dark-bg span {
-  background: #506A85;
-  box-shadow: -0.5em 0 0 #506A85, 0.5em 0 0 #506A85;
+  background: #0d8542;
+  box-shadow: -0.5em 0 0 #0d8542, 0.5em 0 0 #0d8542;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
@@ -499,8 +500,8 @@
   color: #34495E !important;
 }
 
-.gray {
-  color: #95A5A6 !important;
+.green {
+  color: #0d8542 !important;
 }
 
 .owl-ui-lg .owl-prev, .owl-ui-lg .owl-next {
@@ -543,9 +544,8 @@
 
 
 body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  height: 200vh;
   position: relative; }
   body:before {
     content: "";
@@ -570,7 +570,9 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  color: #0d8542;
+}
 
 a {
   -webkit-transition: .3s all ease;
@@ -588,7 +590,8 @@ a {
 
 .top-bar {
   padding: .5rem 0;
-  background: #40b4ba; }
+  background: rgb(13,133,66);
+background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.9430147058823529) 100%); }
   .top-bar a {
     color: #ffffff; }
 
@@ -600,8 +603,8 @@ a {
   padding: 1rem; }
   @media (max-width: 991.98px) {
     .site-navbar {
-      padding-top: 3rem;
-      padding-bottom: 3rem; } }
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
   .site-navbar .toggle-button {
     position: absolute;
     right: 0px; }
@@ -623,7 +626,7 @@ a {
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #40b4ba !important; }
+      color: #0d8542 !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -637,7 +640,7 @@ a {
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #40b4ba; }
+          color: #0d8542; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -659,7 +662,7 @@ a {
         top: 100%;
         position: absolute;
         text-align: left;
-        border-top: 2px solid #40b4ba;
+        border-top: 2px solid #0d8542;
         -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
         padding: 0px 0;
@@ -694,7 +697,7 @@ a {
           transition: 0s all;
           color: #000 !important; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-            color: #40b4ba !important;
+            color: #0d8542 !important;
             background: #f8f9fa; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
@@ -717,7 +720,7 @@ a {
             background: #f8f9fa;
             color: #ced4da; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
-        color: #40b4ba; }
+        color: #0d8542; }
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
         cursor: pointer; }
         .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
@@ -797,12 +800,12 @@ a {
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #40b4ba; }
+        color: #0d8542; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
-        color: #40b4ba; }
+        color: #0d8542; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -889,11 +892,11 @@ a {
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2); }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #40b4ba; }
+      color: #0d8542; }
     .sticky-wrapper.is-sticky .site-navbar ul li a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-        color: #40b4ba !important; }
+        color: #0d8542 !important; }
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
@@ -904,7 +907,7 @@ a {
 
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 1em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -920,12 +923,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
-.btn {
-  font-size: 14px; }
-  .btn.btn-primary {
-    background: #ff487e;
-    border-color: #ff487e; }
 
 .owl-carousel {
   position: relative; }
@@ -999,19 +996,21 @@ a {
 
 .blog-entry {
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  text-align: left;
+}
   .blog-entry .text {
     position: relative;
     border-top: 0;
     border-radius: 2px; }
     .blog-entry .text .heading {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 16px;
       font-weight: 600; }
       .blog-entry .text .heading a {
-        color: #000; }
+        color: #b3b3b3; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #ff487e; }
+          color: #0d8542; }
     .blog-entry .text .meta-chat {
       color: #b3b3b3; }
     .blog-entry .text .read {
@@ -1019,13 +1018,15 @@ a {
       font-size: 14px; }
   .blog-entry .meta-date {
     display: inline-block;
-    background: #343a40; }
+    background: #0d8542; }
     .blog-entry .meta-date span {
       display: block;
       color: #fff; }
     .blog-entry .meta-date .day {
       font-weight: 700;
-      font-size: 20px; }
+      font-size: 30px; 
+        line-height: 60px;
+}
     .blog-entry .meta-date .mos, .blog-entry .meta-date .yr {
       font-size: 13px; }
   .blog-entry .meta > div {
@@ -1047,7 +1048,7 @@ a {
 
 .icon-menu{
     font-size: 40px;
-    color: #40b4ba;
+    color: #0d8542;
 }
 
 .card-text{
@@ -1056,3 +1057,205 @@ a {
 .card-title{
     font-weight: 800;
 }
+
+.meta-details{
+    background-color: rgb(52, 58, 64, 0.4);
+    margin-left: 10px;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    align-self:auto;
+    flex: auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.meta-details:hover{
+    background-color: rgb(52, 58, 64, 0.9);
+    margin-left: 10px;
+    color: #fff;
+}
+
+/*
+p{
+    font-size: 150%;
+}
+
+p:first-letter{
+    display:block;
+    float:left;
+    margin:0px;
+    color:#f00;
+    font-size:300%;
+}
+*/
+
+
+ .jumbotron h1 {
+ font-family:Georgia,serif;
+ font-size:30px;
+ line-height:1em;
+ margin:0 0 0 60px;
+     
+ }
+
+.page-body h1 strong{
+ color:#A80C1E;
+ display:block;
+ font-size:85px;
+ font-weight:normal;
+ letter-spacing:-3.5px;
+ line-height:1em;
+ }
+
+
+.page-body h2 {
+ font-family: georgia,serif;
+ font-size: 20px;
+ letter-spacing: 0.1em;
+ line-height: 1.5em;
+ text-transform: uppercase;
+ margin: 10px;
+ }
+
+.page-body p{
+ color:#4B4742;
+ line-height:30px;
+ margin:10px; /*Customize */
+
+ }
+.page-body ul{
+/*    background: #9ddfef;*/
+}
+
+.page-body ul li{
+    color:#4B4742;
+    padding-left: 30px;
+    line-height:30px;
+    margin: 5px;
+    list-style-position:inside;
+/*    background: #ededed;*/
+}
+
+.page-body ol{
+/*    background: #9ddfef;*/
+}
+
+.page-body ol li{
+/*    color:#4B4742;*/
+    padding-left: 30px;
+    line-height:30px;
+    margin: 5px;
+    list-style-position:inside;
+/*    background: #ededed;*/
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron h2{
+    color: white;
+}
+strong{
+    font-weight: 800;
+    color: #0d8542;
+}
+
+/*Begin Cards for DSA Visiting Fellowship*/
+
+  .team-boxed {
+  color:#313437;
+  
+}
+
+.team-boxed p {
+  color:#7d8285;
+}
+
+.team-boxed h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom:0;
+}
+
+.team-boxed .people {
+  padding:50px 0;
+}
+
+.team-boxed .item {
+  text-align:center;
+}
+
+.team-boxed .item .box {
+  text-align:center;
+  padding:30px;
+  background-color:#fff;
+  border-style: solid;
+  margin-bottom:30px;
+}
+
+.team-boxed .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.team-boxed .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#d0d0d0;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.team-boxed .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+.team-boxed .item img {
+  max-width:160px;
+}
+
+.team-boxed .social {
+  font-size:18px;
+  color:#a2a8ae;
+}
+
+.team-boxed .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity:1;
+}
+
+/*End Cards for DSA Visiting Fellowship*/
+
+
