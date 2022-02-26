@@ -1158,6 +1158,10 @@ p:first-letter{
 .jumbotron h2{
     color: white;
 }
+strong{
+    font-weight: 800;
+    color: #0d8542;
+}
 
 
 
