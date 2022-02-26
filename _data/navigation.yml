@@ -29,11 +29,13 @@
     - title: DSA Monthly Seminar
       url: /
     - title: DSA Fellowship
-      url: /
+      url: /dsa-visiting-fellowship/
     - title: DSA Local Chapters
       url: /
 - title: Resources
   url: /resources/
+- title: Calendar
+  url: /calendar/
 - title: Contact Us
   url: /contactus/
 - title: Blog
